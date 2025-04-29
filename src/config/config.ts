@@ -13,12 +13,12 @@ const config: Config = {
   personalInfo: {
     name: "Akshay Babre",
     jobTitle: "Full Stack Developer",
-    shortBio: "Building responsive and efficient web applications with React, Node.js, and modern databases.",
-    fullBio: `I'm an aspiring Full Stack Developer pursuing a Bachelor of Science in Computers at C.B Degree College, Bhalki. With hands-on experience in developing web applications using JavaScript, React, Node.js, and databases like MySQL and MongoDB, I have worked on projects like a Restaurant Management System, focusing on creating user-friendly interfaces and robust backend integrations.
+    shortBio: "Crafting user-friendly web applications with React, Node.js, and modern databases.",
+    fullBio: `I'm an aspiring Full Stack Developer pursuing a Bachelor of Science in Computers at C.B Degree College, Bhalki, with a 7.53 CGPA. I specialize in building responsive web applications using JavaScript, React, Node.js, MySQL, and MongoDB. My key project, a Restaurant Management System, showcases my ability to create intuitive UI and integrate robust backend systems.
 
-    Passionate about leveraging technology to solve real-world problems, I excel in collaborative environments and enjoy tackling complex challenges. When I'm not coding, you can find me watching football, cheering for Real Madrid, or enjoying series like Game of Thrones and Breaking Bad.`,
-    avatarUrl: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
-    resumeLink: "/Akshay_Resume.pdf",
+    Passionate about solving real-world problems through technology, I thrive in collaborative settings and excel at tackling complex challenges. Outside of coding, I enjoy watching football, cheering for my favorite teams, watching movies, and experimenting with cooking.`,
+    avatarUrl: "https://example.com/akshay-babre-avatar.jpg",
+    resumeLink: "/AkshayBabre_Resume.pdf",
     email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
@@ -39,7 +39,7 @@ const config: Config = {
       },
       {
         platform: "Instagram",
-        url: "https://instagram.com/akshaybabre", // Placeholder, update with actual link
+        url: "https://instagram.com/akshaybabre8", // Placeholder, update with actual link
         icon: "Instagram"
       }
     ]
@@ -59,7 +59,7 @@ const config: Config = {
   },
   seo: {
     siteTitle: "Akshay Babre | Full Stack Developer",
-    siteDescription: "Personal portfolio and blog of Akshay Babre, a full stack developer passionate about creating user-friendly web applications.",
+    siteDescription: "Personal portfolio of Akshay Babre, a full stack developer passionate about creating efficient and user-friendly web applications.",
     siteKeywords: ["javascript", "react", "node.js", "mysql", "mongodb", "full stack", "web development"]
   },
   skills: [
@@ -80,7 +80,7 @@ const config: Config = {
     {
       id: "proj-1",
       title: "Restaurant Management System",
-      description: "A 3-tier web application for restaurant staff and customers, featuring responsive UI for order management, table reservations, and real-time order tracking.",
+      description: "A 3-tier web application for restaurants, featuring a responsive UI for order management, table reservations, menu display, and real-time order tracking with statuses like 'Order Received,' 'Preparing,' 'Ready,' and 'Delivered.' Improved form usability led to a 10% increase in order completion rates during testing.",
       imageUrl: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
       technologies: ["React", "HTML", "CSS", "JavaScript", "Bootstrap"],
       liveUrl: "",
@@ -224,7 +224,7 @@ The ecosystem around React continues to evolve:
 
 1. **Next.js and Remix**: These frameworks have become even more powerful, offering enhanced developer experiences.
    
-2. **State Management**: Libraries like Zustand and Jotai have gainedEveryone's popularity for their simplicity and performance.
+2. **State Management**: Libraries like Zustand and Jotai have gained popularity for their simplicity and performance.
 
 3. **Testing**: New testing utilities make it easier to test React components without worrying about implementation details.
 
