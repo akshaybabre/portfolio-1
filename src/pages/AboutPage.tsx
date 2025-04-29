@@ -83,7 +83,7 @@ const AboutPage: React.FC = () => {
                 </span>
               </div>
               
-              <div className="flex items-center">
+              <div className="flex items-center mb-4">
                 <span className={`mr-2 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
                   Email:
                 </span>
@@ -94,6 +94,21 @@ const AboutPage: React.FC = () => {
                   }`}
                 >
                   {config.personalInfo.email}
+                </a>
+              </div>
+
+              <div className="flex items-center">
+                <span className={`mr-2 ${isDarkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                  Resume:
+                </span>
+                <a 
+                  href={config.personalInfo.resumeLink}
+                  download="AkshayBabre_Resume.pdf"
+                  className={`font-medium hover:underline ${
+                    isDarkMode ? 'text-blue-400' : 'text-blue-600'
+                  }`}
+                >
+                  Download My Resume
                 </a>
               </div>
             </div>
