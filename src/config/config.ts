@@ -17,9 +17,8 @@ const config: Config = {
     fullBio: `I'm an aspiring Full Stack Developer pursuing a Bachelor of Science in Computers at C.B Degree College, Bhalki, with a 7.53 CGPA. I specialize in building responsive web applications using JavaScript, React, Node.js, MySQL, and MongoDB. My key project, a Restaurant Management System, showcases my ability to create intuitive UI and integrate robust backend systems.
 
     Passionate about solving real-world problems through technology, I thrive in collaborative settings and excel at tackling complex challenges. Outside of coding, I enjoy watching football, cheering for my favorite teams, watching movies, and experimenting with cooking.`,
-    avatarUrl: "https://i.postimg.cc/mZPpHfSp/1718556093974.jpg", 
-    resumeLink: "https://drive.google.com/uc?export=download&id=1--FdbA0Xl9IbpXABA4KeRJiPBniSUSBr", 
-    email: "akshaybabre8@gmail.com",
+    avatarUrl: "https://i.postimg.cc/mZPpHfSp/1718556093974.jpg",
+    resumeLink: "https://www.dropbox.com/scl/fi/gl39g4sbd1up49s0uaa0x/AkshayBabre-Resume.pdf?rlkey=g8kfbtky8flx5bf5x99tz5aqc&st=u32tnmbg&dl=1", email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
       {
