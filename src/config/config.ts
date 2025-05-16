@@ -34,12 +34,12 @@ const config: Config = {
       },
       {
         platform: "Twitter",
-        url: "https://twitter.com/akshaybabre", // Placeholder, update with actual link
+        url: "https://twitter.com/@akshaybabre8", // Placeholder, update with actual link
         icon: "Twitter"
       },
       {
         platform: "Instagram",
-        url: "https://instagram.com/akshaybabre", // Placeholder, update with actual link
+        url: "https://instagram.com/akshaybabre8", // Placeholder, update with actual link
         icon: "Instagram"
       }
     ]
