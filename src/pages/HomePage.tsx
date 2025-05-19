@@ -28,7 +28,7 @@ const HomePage: React.FC = () => {
         />
         
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12">
+          <div className="flex flex-col-reverse lg:flex-row items-center justify-around gap-12">
             <motion.div 
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
