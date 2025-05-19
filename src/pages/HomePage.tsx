@@ -67,7 +67,7 @@ const HomePage: React.FC = () => {
                 </Button>
                 <Button 
                   href={config.personalInfo.resumeLink} 
-                  variant="outline" 
+                  variant="secondary" 
                   size="lg" 
                   icon={<Download size={18} />}
                 >
