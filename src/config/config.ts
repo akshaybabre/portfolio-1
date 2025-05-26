@@ -18,7 +18,7 @@ const config: Config = {
 
     Passionate about solving real-world problems through technology, I thrive in collaborative settings and excel at tackling complex challenges. Outside of coding, I enjoy watching football, cheering for my favorite teams, watching movies, and experimenting with cooking.`,
     avatarUrl: "https://i.postimg.cc/mZPpHfSp/1718556093974.jpg",
-    resumeLink: "https://drive.google.com/uc?export=download&id=1ov3ZwFmM31Hf0rVY_C7wdMhvdV8yFNse", 
+    resumeLink: "https://drive.google.com/uc?export=download&id=1ov3ZwFmM31Hf0rVY_C7wdMhvdV8yFNse",
     email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
@@ -78,13 +78,13 @@ const config: Config = {
   ],
   projects: [
     {
-      id: "proj-1",
-      title: "Restaurant Management System",
-      description: "A 3-tier web application for restaurants, featuring a responsive UI for order management, table reservations, menu display, and real-time order tracking with statuses like 'Order Received,' 'Preparing,' 'Ready,' and 'Delivered.' Improved form usability led to a 10% increase in order completion rates during testing.",
-      imageUrl: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg",
-      technologies: ["React", "HTML", "CSS", "JavaScript", "Bootstrap"],
-      liveUrl: "",
-      repoUrl: "https://github.com/akshaybabre/restaurant-management-system" // Placeholder, update with actual link
+      "id": "proj-1",
+      "title": "Mini-YouTube Application",
+      "description": "Developed a scalable 3-tier full-stack Mini-YouTube application with a responsive React frontend, Node.js backend, and MongoDB database. Implemented user authentication with Firebase/JWT, Like/Dislike and Watchlist features using Redux for seamless state management, and admin routes for content management. Enhanced UI with custom SVG icons, Framer Motion animations, and a professional YouTube favicon. Secured sensitive data by shifting secrets to Render and ensured robust error handling for APIs.",
+      "imageUrl": "https://images.pexels.com/photos/3371322/pexels-photo-3371322.jpeg",
+      "technologies": ["React", "TypeScript", "TailwindCSS", "Redux", "Framer Motion", "Node.js", "Express", "MongoDB", "Firebase", "JWT"],
+      "liveUrl": "https://mini-youtube-frontend.onrender.com",
+      "repoUrl": "https://github.com/akshaybabre/Mini_YouTube_Application"
     }
   ],
   blogPosts: [
