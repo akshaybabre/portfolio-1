@@ -81,7 +81,7 @@ const config: Config = {
       "id": "proj-1",
       "title": "Mini-YouTube Application",
       "description": "Developed a scalable 3-tier full-stack Mini-YouTube application with a responsive React frontend, Node.js backend, and MongoDB database. Implemented user authentication with Firebase/JWT, Like/Dislike and Watchlist features using Redux for seamless state management, and admin routes for content management. Enhanced UI with custom SVG icons, Framer Motion animations, and a professional YouTube favicon. Secured sensitive data by shifting secrets to Render and ensured robust error handling for APIs.",
-      "imageUrl": "https://images.pexels.com/photos/3371322/pexels-photo-3371322.jpeg",
+      "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/youtube-271012476-16x9_0.jpg?VersionId=XnHVBQsq46i6GGfJLAJOBEHB_qewkB4d",
       "technologies": ["React", "TypeScript", "TailwindCSS", "Redux", "Framer Motion", "Node.js", "Express", "MongoDB", "Firebase", "JWT"],
       "liveUrl": "https://mini-youtube-frontend.onrender.com",
       "repoUrl": "https://github.com/akshaybabre/Mini_YouTube_Application"
