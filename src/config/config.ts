@@ -90,6 +90,9 @@ const config: Config = {
     }
   ],
   blogPosts: [
+
+
+
     {
       id: "blog-1",
       title: "Mastering the MERN Stack in 2025",
@@ -224,6 +227,11 @@ Stay tuned for more MERN stack tips and tutorials!
       tags: ["MERN Stack", "React", "Node.js", "MongoDB", "Web Development"],
       imageUrl: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"
     },
+
+
+
+
+
     {
       id: "blog-2",
       title: "The Future of React: What's Coming in 2025",
@@ -289,8 +297,14 @@ What’s your favorite React feature for 2025? Share your thoughts!
       `,
       date: "2025-02-15",
       tags: ["React", "MERN Stack", "Frontend", "JavaScript"],
-      imageUrl: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg"
+      imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTApK9rB_ccHZjZR-hW-WblNycwFIjsfDiaOQ&s"
     },
+
+
+
+
+
+
     {
       id: "blog-3",
       title: "Building a Developer Portfolio That Stands Out",
