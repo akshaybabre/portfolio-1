@@ -18,7 +18,7 @@ const config: Config = {
 
     Driven by a love for innovation, I excel at solving complex challenges and creating efficient, maintainable code. I thrive in collaborative environments, leveraging my skills in JavaScript, TypeScript, and modern frameworks to bring ideas to life. Beyond coding, I enjoy football, movies, and exploring new recipes in the kitchen, which fuel my creativity and problem-solving mindset.`,
     avatarUrl: "https://i.postimg.cc/mZPpHfSp/1718556093974.jpg",
-    resumeLink: "https://drive.google.com/uc?export=download&id=1ov3ZwFmM31Hf0rVY_C7wdMhvdV8yFNse",
+    resumeLink: "https://drive.google.com/uc?export=download&id=1090bcQnyyfYxmgmT7J6ZK7yPpSpHv2V_",
     email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
