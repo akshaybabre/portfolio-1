@@ -88,7 +88,7 @@ const config: Config = {
       imageUrl: "https://images.unsplash.com/photo-1649180543887-158357417159?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW91dHViZSUyMGxvZ298ZW58MHx8MHx8fDA%3D",
       technologies: ["React.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Framer Motion", "Redux", "Express.js", "JWT", "Firebase"],
       liveUrl: "https://mini-youtube-frontend.onrender.com",
-      repoUrl: "https://github.com/akshaybabre?tab=repositories"
+      repoUrl: "https://github.com/akshaybabre/Mini_YouTube_Application"
     }
   ],
   blogPosts: [
