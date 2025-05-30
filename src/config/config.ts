@@ -11,35 +11,35 @@ import {
 
 const config: Config = {
   personalInfo: {
-    name: "Akshay Babre",
-    jobTitle: "MERN Stack Developer",
-    shortBio: "Building dynamic, scalable, and user-centric web applications with expertise in MongoDB, Express.js, React, and Node.js.",
-    fullBio: `I'm a passionate MERN Stack Developer pursuing a Bachelor of Science in Computers at C.B Degree College, Bhalki, with a 7.53 CGPA. I specialize in crafting high-performance web applications using the MERN stack (MongoDB, Express.js, React, Node.js), delivering seamless user experiences and robust backend solutions. My flagship project, a Mini-YouTube Application, demonstrates my ability to build scalable, feature-rich platforms with modern tools and best practices.
+    name: "Suraj Somvanshi",
+    jobTitle: "Java Developer",
+    shortBio: "Passionate Java Developer skilled in Java, Oracle SQL, and web technologies, building efficient and user-friendly applications.",
+    fullBio: `I'm a dedicated Java Developer with a BE in Computer Engineering from Savitribai Phule Pune University (2024, 8.5 CGPA). I specialize in developing robust applications using Java, OOPs, Oracle SQL, and web technologies like HTML, CSS, and JavaScript. My projects, such as an ATM Management System and an E-Commerce Website, showcase my ability to create functional, user-centric solutions with clean code and strong database integration. 
 
-    Driven by a love for innovation, I excel at solving complex challenges and creating efficient, maintainable code. I thrive in collaborative environments, leveraging my skills in JavaScript, TypeScript, and modern frameworks to bring ideas to life. Beyond coding, I enjoy football, movies, and exploring new recipes in the kitchen, which fuel my creativity and problem-solving mindset.`,
-    avatarUrl: "https://i.postimg.cc/mZPpHfSp/1718556093974.jpg",
-    resumeLink: "https://drive.google.com/uc?export=download&id=1090bcQnyyfYxmgmT7J6ZK7yPpSpHv2V_",
-    email: "akshaybabre8@gmail.com",
-    location: "Hyderabad, Telangana, India",
+    With hands-on training from NareshIT and Besant Technology, I excel in problem-solving, debugging, and crafting scalable applications. I thrive in collaborative environments, leveraging my effective communication and analytical skills to deliver high-quality software. Outside coding, I enjoy exploring new technologies and refining my craft to contribute to innovative projects.`,
+    avatarUrl: "https://i.postimg.cc/HLCdnCbs/suraj.jpg", // Kept placeholder as no avatar URL in resume
+    resumeLink: "https://drive.google.com/uc?export=download&id=1hws6OrHevZBKrfBgF463e0yjaZb-ZEOf", // Kept placeholder as no specific resume link provided
+    email: "somvanshi7766@gmail.com",
+    location: "Latur, Maharashtra, India",
     socialLinks: [
       {
         platform: "GitHub",
-        url: "https://github.com/akshaybabre", // Placeholder, update with actual link
+        url: "https://github.com/SurajSomvanshi1509",
         icon: "Github"
       },
       {
         platform: "LinkedIn",
-        url: "https://linkedin.com/in/akshaybabre", // Placeholder, update with actual link
+        url: "https://linkedin.com/in/surajsomvanshi-java-developer",
         icon: "Linkedin"
       },
       {
         platform: "Twitter",
-        url: "https://twitter.com/@akshaybabre8", // Placeholder, update with actual link
+        url: "https://twitter.com/@surajsomvanshi", // Placeholder, update with actual link if available
         icon: "Twitter"
       },
       {
         platform: "Instagram",
-        url: "https://instagram.com/akshaybabre8", // Placeholder, update with actual link
+        url: "https://instagram.com/surajsomvanshi", // Placeholder, update with actual link if available
         icon: "Instagram"
       }
     ]
@@ -58,41 +58,42 @@ const config: Config = {
     dateFormat: "MMMM dd, yyyy"
   },
   seo: {
-    siteTitle: "Akshay Babre | MERN Stack Developer",
-    siteDescription: "Portfolio of Akshay Babre, a MERN stack developer specializing in scalable, user-focused web applications using MongoDB, Express.js, React, and Node.js.",
-    siteKeywords: ["MERN stack", "React", "Node.js", "MongoDB", "Express.js", "JavaScript", "TypeScript", "web development", "full stack", "UI/UX"]
+    siteTitle: "Suraj Somvanshi | Java Developer",
+    siteDescription: "Portfolio of Suraj Somvanshi, a Java Developer specializing in building efficient, scalable applications using Java, Oracle SQL, HTML, CSS, and JavaScript.",
+    siteKeywords: ["Java", "Oracle SQL", "OOPs", "HTML", "CSS", "JavaScript", "Bootstrap", "web development", "software development", "database management"]
   },
   skills: [
-    { name: "JavaScript", level: 85, category: "Frontend" },
-    { name: "TypeScript", level: 80, category: "Frontend" },
-    { name: "React", level: 80, category: "Frontend" },
-    { name: "Redux", level: 75, category: "Frontend" },
-    { name: "HTML", level: 90, category: "Frontend" },
-    { name: "CSS", level: 85, category: "Frontend" },
-    { name: "TailwindCSS", level: 80, category: "Frontend" },
-    { name: "Node.js", level: 75, category: "Backend" },
-    { name: "Express.js", level: 75, category: "Backend" },
-    { name: "MongoDB", level: 80, category: "Database" },
-    { name: "MySQL", level: 70, category: "Database" },
-    { name: "Git", level: 80, category: "Tools" },
-    { name: "RESTful APIs", level: 75, category: "Backend" },
-    { name: "Firebase", level: 70, category: "Backend" }
+    { name: "Java", level: 85, category: "Programming" },
+    { name: "C", level: 75, category: "Programming" },
+    { name: "HTML", level: 80, category: "Frontend" },
+    { name: "CSS", level: 80, category: "Frontend" },
+    { name: "JavaScript", level: 75, category: "Frontend" },
+    { name: "Oracle SQL", level: 80, category: "Database" },
+    { name: "PL/SQL", level: 75, category: "Database" },
+    { name: "Bootstrap", level: 70, category: "Frontend" },
+    { name: "Git", level: 70, category: "Tools" }
   ],
   projects: [
     {
-      "id": "proj-1",
-      "title": "Mini-YouTube Application",
-      "description": "Developed a scalable 3-tier full-stack Mini-YouTube application with a responsive React frontend, Node.js backend, and MongoDB database. Implemented user authentication with Firebase/JWT, Like/Dislike and Watchlist features using Redux for seamless state management, and admin routes for content management. Enhanced UI with custom SVG icons, Framer Motion animations, and a professional YouTube favicon. Secured sensitive data by shifting secrets to Render and ensured robust error handling for APIs.",
-      "imageUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/youtube-271012476-16x9_0.jpg?VersionId=XnHVBQsq46i6GGfJLAJOBEHB_qewkB4d",
-      "technologies": ["React", "TypeScript", "TailwindCSS", "Redux", "Framer Motion", "Node.js", "Express", "MongoDB", "Firebase", "JWT"],
-      "liveUrl": "https://mini-youtube-frontend.onrender.com",
-      "repoUrl": "https://github.com/akshaybabre/Mini_YouTube_Application"
+      id: "proj-1",
+      title: "ATM Management System",
+      description: "Developed a Java-based desktop application simulating ATM functionalities, enabling users to perform account creation, cash withdrawal, deposits, balance inquiries, and PIN management. Built with Java for core logic, JDBC for database connectivity, MySQL for data storage, and AWT/Swing for an intuitive GUI, ensuring seamless user experience and robust backend integration.",
+      imageUrl: "https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg", // Placeholder image relevant to ATM
+      technologies: ["Java", "JDBC", "MySQL", "AWT", "Swing"],
+      liveUrl: "", // No live URL provided in resume, left empty
+      repoUrl: "https://github.com/SurajSomvanshi1509/atm-management-system" // Placeholder, update with actual repo if available
+    },
+    {
+      id: "proj-2",
+      title: "E-Commerce Website",
+      description: "Built a web application for online shopping, allowing users to browse products, add to cart, and complete purchases. Designed with HTML for structure, CSS for styling, and SQL for backend database management, providing a user-friendly interface and efficient product and order management.",
+      imageUrl: "https://images.pexels.com/photos/5632371/pexels-photo-5632371.jpeg", // Placeholder image relevant to e-commerce
+      technologies: ["HTML", "CSS", "SQL", "JavaScript"],
+      liveUrl: "", // No live URL provided in resume, left empty
+      repoUrl: "https://github.com/SurajSomvanshi1509/ecommerce-website" // Placeholder, update with actual repo if available
     }
   ],
   blogPosts: [
-
-
-
     {
       id: "blog-1",
       title: "Mastering the MERN Stack in 2025",
@@ -227,11 +228,6 @@ Stay tuned for more MERN stack tips and tutorials!
       tags: ["MERN Stack", "React", "Node.js", "MongoDB", "Web Development"],
       imageUrl: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg"
     },
-
-
-
-
-
     {
       id: "blog-2",
       title: "The Future of React: What's Coming in 2025",
@@ -299,12 +295,6 @@ What’s your favorite React feature for 2025? Share your thoughts!
       tags: ["React", "MERN Stack", "Frontend", "JavaScript"],
       imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTApK9rB_ccHZjZR-hW-WblNycwFIjsfDiaOQ&s"
     },
-
-
-
-
-
-
     {
       id: "blog-3",
       title: "Building a Developer Portfolio That Stands Out",
