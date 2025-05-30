@@ -14,11 +14,11 @@ const config: Config = {
     name: "Akshay Babre",
     jobTitle: "Frontend Developer",
     shortBio: "Passionate Frontend Developer skilled in JavaScript, TypeScript, React.js, and modern web technologies, building user-centric and scalable web applications.",
-    fullBio: `I'm a dedicated Frontend Developer with a BSc in Computers from C.B Degree College, Bhalki (2024, 7.53 CGPA). I specialize in creating high-performance, scalable, and accessible web applications using JavaScript (ES6+), TypeScript, React.js, and modern tools like Webpack, Vite, and Jest. My projects, such as Mini-YouTube and a Personal Portfolio, demonstrate my ability to deliver intuitive UI/UX, modular components, and optimized performance. 
+    fullBio: `I'm a dedicated Frontend Developer with a BSc in Computers from C.B Degree College, Bhalki (2024, 7.53 CGPA). I specialize in creating high-performance, scalable, and accessible web applications using JavaScript (ES6+), TypeScript, React.js, and modern tools like Webpack, Vite, and Jest. My project, Mini-YouTube, demonstrates my ability to deliver intuitive UI/UX, modular components, and optimized performance. 
 
-    With hands-on training from NareshIT in the MERN stack, I excel in collaborating with cross-functional teams to build responsive, user-focused solutions. Skilled in state management (Redux, Context API), RESTful API integration, and web accessibility, I’m eager to contribute innovative web solutions at Persistent Ltd.`,
-    avatarUrl: "https://i.postimg.cc/3R9HR4Z3/1718556093974.jpg", 
-    resumeLink: "https://drive.google.com/uc?export=download&id=1iwOpUh4NXvoYHFdN0w67p6atZJSAVlZr", 
+    With hands-on training from NareshIT in the MERN stack, I excel in collaborating with cross-functional teams to build responsive, user-focused solutions. Skilled in state management (Redux, Context API), RESTful API integration, and web accessibility, I’m eager to contribute innovative web solutions.`,
+    avatarUrl: "https://i.postimg.cc/3R9HR4Z3/1718556093974.jpg",
+    resumeLink: "https://drive.google.com/uc?export=download&id=1iwOpUh4NXvoYHFdN0w67p6atZJSAVlZr",
     email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
@@ -65,34 +65,30 @@ const config: Config = {
   skills: [
     { name: "JavaScript (ES6+)", level: 85, category: "Programming" },
     { name: "TypeScript", level: 80, category: "Programming" },
-    { name: "HTML5", level: 90, category: "Frontend" },
-    { name: "CSS3", level: 85, category: "Frontend" },
+    { name: "HTML", level: 90, category: "Frontend" },
+    { name: "CSS", level: 85, category: "Frontend" },
     { name: "React.js", level: 85, category: "Frontend" },
     { name: "Redux", level: 80, category: "State Management" },
     { name: "Context API", level: 80, category: "State Management" },
     { name: "Tailwind CSS", level: 75, category: "Frontend" },
     { name: "Material UI", level: 70, category: "Frontend" },
     { name: "Framer Motion", level: 70, category: "Frontend" },
-    { name: "Webpack", level: 70, category: "Tools" },
-    { name: "Vite", level: 75, category: "Tools" },
-    { name: "Jest", level: 70, category: "Testing" },
-    { name: "Enzyme", level: 65, category: "Testing" },
-    { name: "Mocha", level: 65, category: "Testing" },
-    { name: "React Testing Library", level: 70, category: "Testing" },
     { name: "Node.js", level: 60, category: "Backend" },
     { name: "Express.js", level: 60, category: "Backend" },
     { name: "MongoDB", level: 60, category: "Database" },
-    { name: "Git", level: 80, category: "Tools" }
+    { name: "Git", level: 80, category: "Tools" },
+    { name: "GitHub", level: 80, category: "Tools" },
+    { name: "RESTful APIs", level: 75, category: "Backend" }
   ],
   projects: [
     {
       id: "proj-1",
       title: "Mini-YouTube",
-      description: "Developed a scalable full-stack video platform using React.js, TypeScript, Node.js, and MongoDB, delivering intuitive UI components for video browsing, liking, and watchlist management. Implemented responsive interfaces with Tailwind CSS and Framer Motion, optimizing state management with Redux to improve interaction response time by 15%. Designed secure RESTful APIs with Node.js, Express.js, and JWT authentication, ensuring 99% uptime. Deployed on Render with CI/CD pipelines.",
-      imageUrl: "https://images.unsplash.com/photo-1649180543887-158357417159?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW91dHViZSUyMGxvZ298ZW58MHx8MHx8fDA%3D", 
-      technologies: ["React.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Framer Motion", "Redux", "Express.js", "JWT"],
-      liveUrl: "https://akshay-x66v.onrender.com/", 
-      repoUrl: "https://github.com/akshaybabre/MiniYouTube"
+      description: "Developed a scalable 3-tier full-stack video platform using React.js, TypeScript, Node.js, and MongoDB. Built responsive UI with Tailwind CSS and Framer Motion for seamless video browsing, liking/disliking, and watchlist features. Optimized state management with Redux, improving interaction response time by 15%. Designed secure RESTful APIs with Node.js, Express.js, and JWT/Firebase authentication, achieving 99% uptime. Deployed on Render with CI/CD, using modular components like UserDashPage and CustomLikeButton.tsx for reusability.",
+      imageUrl: "https://images.unsplash.com/photo-1649180543887-158357417159?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW91dHViZSUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+      technologies: ["React.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Framer Motion", "Redux", "Express.js", "JWT", "Firebase"],
+      liveUrl: "https://akshay-x66v.onrender.com/",
+      repoUrl: "https://github.com/akshaybabre?tab=repositories"
     }
   ],
   blogPosts: [
