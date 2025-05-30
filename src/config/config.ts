@@ -11,35 +11,35 @@ import {
 
 const config: Config = {
   personalInfo: {
-    name: "Suraj Somvanshi",
-    jobTitle: "Java Developer",
-    shortBio: "Passionate Java Developer skilled in Java, Oracle SQL, and web technologies, building efficient and user-friendly applications.",
-    fullBio: `I'm a dedicated Java Developer with a BE in Computer Engineering from Savitribai Phule Pune University (2024, 8.5 CGPA). I specialize in developing robust applications using Java, OOPs, Oracle SQL, and web technologies like HTML, CSS, and JavaScript. My projects, such as an ATM Management System and an E-Commerce Website, showcase my ability to create functional, user-centric solutions with clean code and strong database integration. 
+    name: "Akshay Babre",
+    jobTitle: "Frontend Developer",
+    shortBio: "Passionate Frontend Developer skilled in JavaScript, TypeScript, React.js, and modern web technologies, building user-centric and scalable web applications.",
+    fullBio: `I'm a dedicated Frontend Developer with a BSc in Computers from C.B Degree College, Bhalki (2024, 7.53 CGPA). I specialize in creating high-performance, scalable, and accessible web applications using JavaScript (ES6+), TypeScript, React.js, and modern tools like Webpack, Vite, and Jest. My projects, such as Mini-YouTube and a Personal Portfolio, demonstrate my ability to deliver intuitive UI/UX, modular components, and optimized performance. 
 
-    With hands-on training from NareshIT and Besant Technology, I excel in problem-solving, debugging, and crafting scalable applications. I thrive in collaborative environments, leveraging my effective communication and analytical skills to deliver high-quality software. Outside coding, I enjoy exploring new technologies and refining my craft to contribute to innovative projects.`,
-    avatarUrl: "https://i.postimg.cc/HLCdnCbs/suraj.jpg", // Kept placeholder as no avatar URL in resume
-    resumeLink: "https://drive.google.com/uc?export=download&id=1hws6OrHevZBKrfBgF463e0yjaZb-ZEOf", // Kept placeholder as no specific resume link provided
-    email: "somvanshi7766@gmail.com",
-    location: "Latur, Maharashtra, India",
+    With hands-on training from NareshIT in the MERN stack, I excel in collaborating with cross-functional teams to build responsive, user-focused solutions. Skilled in state management (Redux, Context API), RESTful API integration, and web accessibility, I’m eager to contribute innovative web solutions at Persistent Ltd.`,
+    avatarUrl: "https://i.postimg.cc/HLCdnCbs/akshay.jpg", // Placeholder, update with actual avatar URL if available
+    resumeLink: "https://drive.google.com/uc?export=download&id=1DSHO0Zjij8RkCKN-ekN6qPAgTWhgXTOa", // From your provided Google Drive link
+    email: "akshaybabre8@gmail.com",
+    location: "Hyderabad, Telangana, India",
     socialLinks: [
       {
         platform: "GitHub",
-        url: "https://github.com/SurajSomvanshi1509",
+        url: "https://github.com/akshaybabre",
         icon: "Github"
       },
       {
         platform: "LinkedIn",
-        url: "https://linkedin.com/in/surajsomvanshi-java-developer",
+        url: "https://linkedin.com/in/akshaybabre",
         icon: "Linkedin"
       },
       {
         platform: "Twitter",
-        url: "https://twitter.com/@surajsomvanshi", // Placeholder, update with actual link if available
+        url: "https://twitter.com/@akshaybabre", // Placeholder, update with actual link if available
         icon: "Twitter"
       },
       {
         platform: "Instagram",
-        url: "https://instagram.com/surajsomvanshi", // Placeholder, update with actual link if available
+        url: "https://instagram.com/akshaybabre", // Placeholder, update with actual link if available
         icon: "Instagram"
       }
     ]
@@ -58,39 +58,50 @@ const config: Config = {
     dateFormat: "MMMM dd, yyyy"
   },
   seo: {
-    siteTitle: "Suraj Somvanshi | Java Developer",
-    siteDescription: "Portfolio of Suraj Somvanshi, a Java Developer specializing in building efficient, scalable applications using Java, Oracle SQL, HTML, CSS, and JavaScript.",
-    siteKeywords: ["Java", "Oracle SQL", "OOPs", "HTML", "CSS", "JavaScript", "Bootstrap", "web development", "software development", "database management"]
+    siteTitle: "Akshay Babre | Frontend Developer",
+    siteDescription: "Portfolio of Akshay Babre, a Frontend Developer specializing in building high-performance, scalable web applications using JavaScript, TypeScript, React.js, and modern web technologies.",
+    siteKeywords: ["JavaScript", "TypeScript", "React.js", "Redux", "Tailwind CSS", "Web Development", "Frontend", "MERN Stack", "Web Accessibility"]
   },
   skills: [
-    { name: "Java", level: 85, category: "Programming" },
-    { name: "C", level: 75, category: "Programming" },
-    { name: "HTML", level: 80, category: "Frontend" },
-    { name: "CSS", level: 80, category: "Frontend" },
-    { name: "JavaScript", level: 75, category: "Frontend" },
-    { name: "Oracle SQL", level: 80, category: "Database" },
-    { name: "PL/SQL", level: 75, category: "Database" },
-    { name: "Bootstrap", level: 70, category: "Frontend" },
-    { name: "Git", level: 70, category: "Tools" }
+    { name: "JavaScript (ES6+)", level: 85, category: "Programming" },
+    { name: "TypeScript", level: 80, category: "Programming" },
+    { name: "HTML5", level: 90, category: "Frontend" },
+    { name: "CSS3", level: 85, category: "Frontend" },
+    { name: "React.js", level: 85, category: "Frontend" },
+    { name: "Redux", level: 80, category: "State Management" },
+    { name: "Context API", level: 80, category: "State Management" },
+    { name: "Tailwind CSS", level: 75, category: "Frontend" },
+    { name: "Material UI", level: 70, category: "Frontend" },
+    { name: "Framer Motion", level: 70, category: "Frontend" },
+    { name: "Webpack", level: 70, category: "Tools" },
+    { name: "Vite", level: 75, category: "Tools" },
+    { name: "Jest", level: 70, category: "Testing" },
+    { name: "Enzyme", level: 65, category: "Testing" },
+    { name: "Mocha", level: 65, category: "Testing" },
+    { name: "React Testing Library", level: 70, category: "Testing" },
+    { name: "Node.js", level: 60, category: "Backend" },
+    { name: "Express.js", level: 60, category: "Backend" },
+    { name: "MongoDB", level: 60, category: "Database" },
+    { name: "Git", level: 80, category: "Tools" }
   ],
   projects: [
     {
       id: "proj-1",
-      title: "ATM Management System",
-      description: "Developed a Java-based desktop application simulating ATM functionalities, enabling users to perform account creation, cash withdrawal, deposits, balance inquiries, and PIN management. Built with Java for core logic, JDBC for database connectivity, MySQL for data storage, and AWT/Swing for an intuitive GUI, ensuring seamless user experience and robust backend integration.",
-      imageUrl: "https://images.pexels.com/photos/8438918/pexels-photo-8438918.jpeg", // Placeholder image relevant to ATM
-      technologies: ["Java", "JDBC", "MySQL", "AWT", "Swing"],
-      liveUrl: "", // No live URL provided in resume, left empty
-      repoUrl: "https://github.com/SurajSomvanshi1509/atm-management-system" // Placeholder, update with actual repo if available
+      title: "Mini-YouTube",
+      description: "Developed a scalable full-stack video platform using React.js, TypeScript, Node.js, and MongoDB, delivering intuitive UI components for video browsing, liking, and watchlist management. Implemented responsive interfaces with Tailwind CSS and Framer Motion, optimizing state management with Redux to improve interaction response time by 15%. Designed secure RESTful APIs with Node.js, Express.js, and JWT authentication, ensuring 99% uptime. Deployed on Render with CI/CD pipelines.",
+      imageUrl: "https://images.pexels.com/photos/5474298/pexels-photo-5474298.jpeg", // Placeholder relevant to video platform
+      technologies: ["React.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Framer Motion", "Redux", "Express.js", "JWT"],
+      liveUrl: "https://akshay-x66v.onrender.com/", // From portfolio, assuming it’s the live URL for Mini-YouTube
+      repoUrl: "https://github.com/akshaybabre/MiniYouTube"
     },
     {
       id: "proj-2",
-      title: "E-Commerce Website",
-      description: "Built a web application for online shopping, allowing users to browse products, add to cart, and complete purchases. Designed with HTML for structure, CSS for styling, and SQL for backend database management, providing a user-friendly interface and efficient product and order management.",
-      imageUrl: "https://images.pexels.com/photos/5632371/pexels-photo-5632371.jpeg", // Placeholder image relevant to e-commerce
-      technologies: ["HTML", "CSS", "SQL", "JavaScript"],
-      liveUrl: "", // No live URL provided in resume, left empty
-      repoUrl: "https://github.com/SurajSomvanshi1509/ecommerce-website" // Placeholder, update with actual repo if available
+      title: "Personal Portfolio",
+      description: "Built a responsive portfolio using React.js, TypeScript, and Tailwind CSS, featuring dynamic animations with Framer Motion for a seamless user experience. Integrated Formspree for a backend-free contact form, enabling reliable email communication. Optimized frontend architecture with modular components and config.ts for dynamic data, reducing maintenance time by 20%. Ensured cross-browser compatibility and web accessibility standards.",
+      imageUrl: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg", // Placeholder relevant to portfolio
+      technologies: ["React.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Formspree"],
+      liveUrl: "https://akshay-x66v.onrender.com/", // From resume
+      repoUrl: "" // No repo URL provided in resume, left empty
     }
   ],
   blogPosts: [
