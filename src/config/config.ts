@@ -17,8 +17,8 @@ const config: Config = {
     fullBio: `I'm a dedicated Frontend Developer with a BSc in Computers from C.B Degree College, Bhalki (2024, 7.53 CGPA). I specialize in creating high-performance, scalable, and accessible web applications using JavaScript (ES6+), TypeScript, React.js, and modern tools like Webpack, Vite, and Jest. My projects, such as Mini-YouTube and a Personal Portfolio, demonstrate my ability to deliver intuitive UI/UX, modular components, and optimized performance. 
 
     With hands-on training from NareshIT in the MERN stack, I excel in collaborating with cross-functional teams to build responsive, user-focused solutions. Skilled in state management (Redux, Context API), RESTful API integration, and web accessibility, I’m eager to contribute innovative web solutions at Persistent Ltd.`,
-    avatarUrl: "https://i.postimg.cc/HLCdnCbs/akshay.jpg", // Placeholder, update with actual avatar URL if available
-    resumeLink: "https://drive.google.com/uc?export=download&id=1DSHO0Zjij8RkCKN-ekN6qPAgTWhgXTOa", // From your provided Google Drive link
+    avatarUrl: "https://i.postimg.cc/3R9HR4Z3/1718556093974.jpg", 
+    resumeLink: "https://drive.google.com/uc?export=download&id=1DSHO0Zjij8RkCKN-ekN6qPAgTWhgXTOa", 
     email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
