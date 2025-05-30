@@ -18,7 +18,7 @@ const config: Config = {
 
     With hands-on training from NareshIT in the MERN stack, I excel in collaborating with cross-functional teams to build responsive, user-focused solutions. Skilled in state management (Redux, Context API), RESTful API integration, and web accessibility, I’m eager to contribute innovative web solutions at Persistent Ltd.`,
     avatarUrl: "https://i.postimg.cc/3R9HR4Z3/1718556093974.jpg", 
-    resumeLink: "https://drive.google.com/uc?export=download&id=1DSHO0Zjij8RkCKN-ekN6qPAgTWhgXTOa", 
+    resumeLink: "https://drive.google.com/uc?export=download&id=1iwOpUh4NXvoYHFdN0w67p6atZJSAVlZr", 
     email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
@@ -89,19 +89,10 @@ const config: Config = {
       id: "proj-1",
       title: "Mini-YouTube",
       description: "Developed a scalable full-stack video platform using React.js, TypeScript, Node.js, and MongoDB, delivering intuitive UI components for video browsing, liking, and watchlist management. Implemented responsive interfaces with Tailwind CSS and Framer Motion, optimizing state management with Redux to improve interaction response time by 15%. Designed secure RESTful APIs with Node.js, Express.js, and JWT authentication, ensuring 99% uptime. Deployed on Render with CI/CD pipelines.",
-      imageUrl: "https://images.pexels.com/photos/5474298/pexels-photo-5474298.jpeg", // Placeholder relevant to video platform
+      imageUrl: "https://images.unsplash.com/photo-1649180543887-158357417159?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW91dHViZSUyMGxvZ298ZW58MHx8MHx8fDA%3D", 
       technologies: ["React.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Framer Motion", "Redux", "Express.js", "JWT"],
-      liveUrl: "https://akshay-x66v.onrender.com/", // From portfolio, assuming it’s the live URL for Mini-YouTube
+      liveUrl: "https://akshay-x66v.onrender.com/", 
       repoUrl: "https://github.com/akshaybabre/MiniYouTube"
-    },
-    {
-      id: "proj-2",
-      title: "Personal Portfolio",
-      description: "Built a responsive portfolio using React.js, TypeScript, and Tailwind CSS, featuring dynamic animations with Framer Motion for a seamless user experience. Integrated Formspree for a backend-free contact form, enabling reliable email communication. Optimized frontend architecture with modular components and config.ts for dynamic data, reducing maintenance time by 20%. Ensured cross-browser compatibility and web accessibility standards.",
-      imageUrl: "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg", // Placeholder relevant to portfolio
-      technologies: ["React.js", "TypeScript", "Tailwind CSS", "Framer Motion", "Formspree"],
-      liveUrl: "https://akshay-x66v.onrender.com/", // From resume
-      repoUrl: "" // No repo URL provided in resume, left empty
     }
   ],
   blogPosts: [
