@@ -87,7 +87,7 @@ const config: Config = {
       description: "Developed a scalable 3-tier full-stack video platform using React.js, TypeScript, Node.js, and MongoDB. Built responsive UI with Tailwind CSS and Framer Motion for seamless video browsing, liking/disliking, and watchlist features. Optimized state management with Redux, improving interaction response time by 15%. Designed secure RESTful APIs with Node.js, Express.js, and JWT/Firebase authentication, achieving 99% uptime. Deployed on Render with CI/CD, using modular components like UserDashPage and CustomLikeButton.tsx for reusability.",
       imageUrl: "https://images.unsplash.com/photo-1649180543887-158357417159?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8eW91dHViZSUyMGxvZ298ZW58MHx8MHx8fDA%3D",
       technologies: ["React.js", "TypeScript", "Node.js", "MongoDB", "Tailwind CSS", "Framer Motion", "Redux", "Express.js", "JWT", "Firebase"],
-      liveUrl: "https://akshay-x66v.onrender.com/",
+      liveUrl: "https://mini-youtube-frontend.onrender.com",
       repoUrl: "https://github.com/akshaybabre?tab=repositories"
     }
   ],
