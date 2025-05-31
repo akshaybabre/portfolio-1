@@ -76,6 +76,7 @@ const config: Config = {
     { name: "Node.js", level: 60, category: "Backend" },
     { name: "Express.js", level: 60, category: "Backend" },
     { name: "MongoDB", level: 60, category: "Database" },
+    { name: "MySQL", level: 60, category: "Database" },
     { name: "Git", level: 80, category: "Tools" },
     { name: "GitHub", level: 80, category: "Tools" },
     { name: "RESTful APIs", level: 75, category: "Backend" }
