@@ -79,7 +79,8 @@ const config: Config = {
     { name: "MySQL", level: 60, category: "Database" },
     { name: "Git", level: 80, category: "Tools" },
     { name: "GitHub", level: 80, category: "Tools" },
-    { name: "RESTful APIs", level: 75, category: "Backend" }
+    { name: "RESTful APIs", level: 75, category: "Backend" },
+    { name: "Next.js", level: 60, category: "Frontend" }
   ],
   projects: [
     {
