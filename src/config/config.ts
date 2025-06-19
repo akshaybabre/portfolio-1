@@ -97,7 +97,7 @@ const config: Config = {
       title: "Social-Media-Application",
       description: "Developed a scalable full-stack social media platform using React, Node.js, and MongoDB. Created a responsive UI with MUI and implemented features like user authentication, posts, likes, comments, and friend management. Optimized state with Redux and secured APIs with JWT authentication. Deployed on Render with 99% uptime, ensuring a seamless user experience.",
       imageUrl: "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2024/08/some-3d-social-media-icons.jpg",
-      technologies: ["React","Node.js","MongoDB","Express.js","MUI (Material-UI)","Redux","JWT (JSON Web Token)","Render","Git","GitHub"],
+      technologies: ["React.js","Node.js","MongoDB","Express.js","MUI (Material-UI)","Redux","JWT (JSON Web Token)","Render","Git","GitHub"],
       liveUrl: "https://social-media-frontend-bf86.onrender.com",
       repoUrl: "https://github.com/akshaybabre/Social-Media-Application"
     }
