@@ -18,7 +18,7 @@ const config: Config = {
 
     With hands-on training from NareshIT in the MERN stack, I excel in collaborating with cross-functional teams to build responsive, user-focused solutions. Skilled in state management (Redux, Context API), RESTful API integration, and web accessibility, I’m eager to contribute innovative web solutions.`,
     avatarUrl: "https://i.postimg.cc/3R9HR4Z3/1718556093974.jpg",
-    resumeLink: "https://drive.google.com/uc?export=download&id=1090bcQnyyfYxmgmT7J6ZK7yPpSpHv2V_",
+    resumeLink: "https://drive.google.com/uc?export=download&id=135zH95LQKNi172DZ-D6F43odEJx89psG",
     email: "akshaybabre8@gmail.com",
     location: "Hyderabad, Telangana, India",
     socialLinks: [
@@ -34,12 +34,12 @@ const config: Config = {
       },
       {
         platform: "Twitter",
-        url: "https://twitter.com/@akshaybabre", // Placeholder, update with actual link if available
+        url: "https://twitter.com/@akshaybabre", 
         icon: "Twitter"
       },
       {
         platform: "Instagram",
-        url: "https://instagram.com/akshaybabre", // Placeholder, update with actual link if available
+        url: "https://instagram.com/akshaybabre", 
         icon: "Instagram"
       }
     ]
